@@ -1,0 +1,10 @@
+build/
+dist/
+cache/
+saves/
+.vscode/
+*.zip
+*.rpyc
+
+.DS_Store
+Thumbs.db
