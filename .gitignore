@@ -3,6 +3,7 @@ dist/
 cache/
 saves/
 .vscode/
+tl/
 *.zip
 *.rpyc
 
