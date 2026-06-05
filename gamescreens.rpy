@@ -96,3 +96,51 @@ screen endingNL(txt):
     text txt:
         style "ending_text"
         align (0.5, 0.5)
+
+screen resources_qr():
+
+    tag menu
+
+    vbox:
+        xalign 0.5
+        yalign 0.5
+        spacing 20
+
+        text "Extra Resources & Information"
+        text "Scan the QR code to learn more."
+
+        add "images/resources-QR.png"
+
+        textbutton "Menu" action MainMenu()
+
+screen resources_qrFR():
+
+    tag menu
+
+    vbox:
+        xalign 0.5
+        yalign 0.5
+        spacing 20
+
+        text "Extra Resources & Information"
+        text "Scan le code QR pour en apprendre plus."
+
+        add "images/resources-QR.png"
+
+        textbutton "Menu" action MainMenu()
+
+screen resources_qrNL():
+
+    tag menu
+
+    vbox:
+        xalign 0.5
+        yalign 0.5
+        spacing 20
+
+        text "Extra Bronnen & Informatie"
+        text "Scan de QR code om meer te leren."
+
+        add "images/resources-QR.png"
+
+        textbutton "Menu" action MainMenu()

@@ -282,6 +282,8 @@ label ending:
     pause
     show screen ending("Misogynoir:\nAnti-Black racism + misogyny directed towards Black women")
     pause
+    hide screen ending
+    call screen resources_qr
     return
 
 
@@ -550,6 +552,8 @@ label endingFR:
     pause
     show screen endingFR("La misogynoir : un terme désignant la combinaison du racisme anti-noir et du sexisme envers les femmes noires.")
     pause
+    hide screen endingFR
+    call screen resources_qrFR
     return
 
 ##Nederlandse versie
@@ -816,4 +820,6 @@ label endingNL:
     pause
     show screen endingNL("Misogynoir: een term voor de combinatie van anti-zwart racisme en misogynie tegen zwarte vrouwen.")
     pause
+    hide screen endingNL
+    call screen resources_qrNL
     return
